@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: "**", component: PageNotFoundComponent }
 ];
 
-export const RoutingComponents: any = [PageNotFoundComponent];
+export const RoutingComponents: any = [IntroComponent, PageNotFoundComponent];
 
 
 @NgModule({
