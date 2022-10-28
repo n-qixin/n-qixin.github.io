@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+::-webkit-scrollbar {
+    display: none;
+}
+
+::selection{
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(30, 30, 30, 1);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: gainsboro;
+    margin: 0 auto;
+}

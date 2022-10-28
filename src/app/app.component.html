@@ -1,0 +1,26 @@
+<app-header [title]="title"></app-header>
+
+<app-intro [devName]="devName" [role]="role"></app-intro>
+<app-contact (childEmitter)="msg=$event" (childEmitter)="msg1=$event"></app-contact>
+
+{{msg}}
+{{msg1}}
+<!-- <table>
+    <tr>
+        <th>index</th>
+        <th>color</th>
+        <th>first</th>
+        <th>last</th>
+        <th>odd</th>
+        <th>even</th>
+    </tr>
+    <tr *ngFor="let c of colors; index as i; first as f; last as l; odd as o; even as e">
+        <td>{{i}}</td>
+        <td>{{c}}</td>
+        <td>{{f}}</td>
+        <td>{{l}}</td>
+        <td>{{o}}</td>
+        <td>{{e}}</td>
+    </tr>
+</table> -->
+<app-footer></app-footer>

@@ -1,0 +1,17 @@
+.copyright{
+    font-family: Vollkorn, fantasy;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(50, 50, 50, 1);
+    border-top: 2px groove lightgray;
+    border-bottom: 2px groove lightgray;
+}
+
+#angularLink{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}

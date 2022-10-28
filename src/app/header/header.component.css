@@ -1,0 +1,86 @@
+
+header {
+    background-color: rgba(50, 50, 50, 1);
+    border-bottom: 2px groove lightgray;
+    padding: 0 20px;
+    display: block;
+    position: sticky;
+    top: 0;
+    transition: top 1s;
+    z-index: 99;
+}
+
+#headerLink {
+    display: flex;
+    justify-content: center;
+}
+
+#headerText {
+    font-family: Audiowide, monospace;
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+.name {
+    font-family: Vollkorn, serif;
+    font-size: 2.5em;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    background: url(../../assets/img/logo.png) no-repeat;
+    background-size: contain;
+    height: 60px;
+    width: 60px;
+    margin: auto 0;
+}
+
+#headerHR {
+    border: 1px inset lightgray;
+    margin: 0;
+}
+
+
+/********** Nav **********/
+
+nav {
+    font-family: Vollkorn Semibold, serif;
+    background-color: rgba(50, 50, 50, 1);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
+
+nav ul {
+    display: inline-flex;
+    margin: auto 0;
+    height: 100%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 10px 20px;
+    vertical-align: bottom;
+}
+
+nav ul li a:hover,
+.selected:hover {
+    background-color: rgba(120, 120, 120, 0.5);
+    color: #77A7FF;
+    transition: 0.45s;
+}
+
+nav ul li a:active {
+    background-color: rgba(120, 120, 120, 0.5);
+    color: #2374E1;
+}
+
+.selected {
+    color: #F38E7B;
+}

@@ -1,0 +1,27 @@
+#contactMe {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    padding: 1.2rem 1rem;
+}
+
+#socialSection div {
+    margin-bottom: 1rem;
+}
+
+#socialSection div img {
+    vertical-align: middle;
+    width: 40px;
+}
+
+#socialSection div span {
+    margin-left: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #AAC9FF;
+}
+
+.heading {
+    text-align: center;
+}

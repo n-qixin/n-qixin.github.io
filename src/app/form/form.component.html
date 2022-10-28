@@ -1,0 +1,30 @@
+<form enctype="multipart/form-data" (submit)="getData(name.value, email.value, subject.value, text.value)">
+    <table>
+        <tr>
+            <td><label for="name">Name: </label></td>
+            <td><input type="text" name="name" id="name" #name maxlength="20" autocomplete="off"
+                    title="Max 20 characters" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email">Email: </label></td>
+            <td><input type="email" name="email" id="email" #email title="Please enter a valid email" autocomplete="off"
+                    required><br>
+                <span id="emailWarning" class="warning">Please enter a valid email</span>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="subject">Subject: </label></td>
+            <td><input type="text" name="subject" id="subject" #subject autocomplete="off" required>
+            </td>
+        </tr>
+        <tr>
+            <td id="msgLblTd"><label for="message">Message: </label></td>
+            <td><textarea name="message" id="message" rows="5" #text></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><input type="submit" id="submitBtn" value="Submit"></td>
+        </tr>
+    </table>
+</form>

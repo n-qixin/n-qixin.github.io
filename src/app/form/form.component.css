@@ -1,0 +1,26 @@
+.warning {
+    display: none;
+    color: tomato;
+    font-size: 0.8em;
+}
+
+td:nth-child(1) {
+    text-align: right;
+}
+
+.formDiv {
+    padding: 40px;
+    border: 2px solid gray;
+    margin: 20px;
+    background-color: steelblue;
+    align-content: center;
+}
+
+#message{
+    resize: none;
+    width: 100%;
+}
+
+#msgLblTd{
+    vertical-align: top;
+}
