@@ -1,4 +1,5 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from '../portfolio.service';
 
 @Component({
   selector: 'app-intro',
@@ -6,11 +7,16 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./intro.component.css']
 })
 export class IntroComponent implements OnInit {
-  @Input() public devName:string="";
-  @Input() public role:string="";
-  constructor() { }
+  public devName: string = "";
+  public role: string = "";
+  public title: string = "";
+
+  constructor(private _portfolioService: PortfolioService) { }
 
   ngOnInit(): void {
+    this.title = this._portfolioService.getTitle();
+    this.devName = this._portfolioService.getDevName();
+    this.role = this._portfolioService.getRole();
   }
 
 }
