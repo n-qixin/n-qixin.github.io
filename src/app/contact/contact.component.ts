@@ -6,17 +6,6 @@ import { Component, EventEmitter, Output, Input, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  message = "This is msg from contact component";
-
-  @Output() childEmitter = new EventEmitter;
-
-  fireMsg() {
-    this.childEmitter.emit(this.message);
-  }
-
-  fireInnerMsg(){
-    this.childEmitter.emit("From inner msg");
-  }
 
   constructor() { }
 
