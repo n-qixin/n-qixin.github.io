@@ -1,0 +1,83 @@
+<div class="container">
+    <h3 id="aboutMeTitle" #AboutMe> 01.&nbsp;&nbsp;About Me </h3>
+    <div id="aboutDiv">
+        <section id="aboutSect">
+            <p>
+                Hello! My name is Ng Qi Xin and I enjoys creating web applications. <br>
+                My interest in web design and development started back in 2017 when I took on a diploma course that
+                seemed interesting but had absolutely no foundation before I started. I soon grew fond of the feeling
+                of accomplishment that I get when I manage to design and develop a full webpage from nothing.
+            </p>
+            <p>
+                Fast-forward to today, I have gained and learnt a lot on what the web technologies has to offer.
+                I have also developed a <a routerLink="/Projects">few web applications</a> during my free time using PHP
+                as the programming language.
+            </p>
+            <section id="listSect">
+                <div>
+                    <span class="listTitle">Hobbies: </span>
+                    <ul id="hobbyList">
+                        <li>E-Sports (League of Legends)</li>
+                        <li>Ice-Skating</li>
+                        <li><a href="https://www.facebook.com/PingYiAthletics.SG" target="_blank"
+                                title="Ping Yi Athletic Association">Lion & Dragon Dancing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="listTitle">Skills:</span>
+                    <ul id="skillsList">
+                        <li>Web Technologies<br>
+                            <img src="../../assets/img/html-5-black.png" class="skillsIcon" title="HTML 5">&nbsp;
+                            <img src="../../assets/img/css-3-black.png" class="skillsIcon" title="CSS 3">&nbsp;
+                            <img src="../../assets/img/js-black.png" class="skillsIcon" title="JavaScript, jQuery">
+                        </li>
+                        <li>Server-side<br>
+                            <img src="../../assets/img/java-black.png" class="skillsIcon" title="Java">&nbsp;
+                            <img src="../../assets/img/jsp-black.png" class="skillsIcon" title="JSP">&nbsp;
+                            <img src="../../assets/img/php-black.png" class="skillsIcon" title="PHP">
+                        </li>
+                        <li>Database<br>
+                            <img src="../../assets/img/mysql-black.png" class="skillsIcon" title="MySQL">&nbsp;
+                            <img src="../../assets/img/sql-server-black.png" class="skillsIcon"
+                                title="Microsoft SQL Server">&nbsp;
+                            <img src="../../assets/img/mongodb-black.png" class="skillsIcon" title="MongoDB">
+                        </li>
+                        <li>JS Frameworks<br>
+                            <img src="../../assets/img/angular-black.png" class="skillsIcon" title="Angular">&nbsp;
+                            <img src="../../assets/img/nodejs-black.png" class="skillsIcon" title="NodeJS">&nbsp;
+                            <img src="../../assets/img/expressjs-black.png" class="skillsIcon" title="ExpressJS">
+                        </li>
+                        <li>Adobe Software<br>
+                            <img src="../../assets/img/illustrator-black.png" class="skillsIcon"
+                                title="Adobe Illustrator">&nbsp;
+                            <img src="../../assets/img/photoshop-black.png" class="skillsIcon"
+                                title="Adobe Photoshop">&nbsp;
+                            <img src="../../assets/img/premiere-pro-black.png" class="skillsIcon"
+                                title="Adobe Premiere Pro">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </section>
+        <section id="photoSect">
+            <div id="photoFrame">
+                <img src="../../assets/img/logo.png">
+            </div>
+        </section>
+    </div>
+    <div #Experience>
+        <section id="workExperience">
+            <h3>02.&nbsp;&nbsp; Work Experiences:</h3>
+        </section>
+    </div>
+    <div #Education>
+        <section id="education">
+            <h3>03.&nbsp;&nbsp; Education and Awards:</h3>
+        </section>
+    </div>
+    <div class="overlayMenu">
+        <div class="overlayMenuItem" (click)="scrollToElement(AboutMe)">01. <span>About Me</span></div>
+        <div class="overlayMenuItem" (click)="scrollToElement(Experience)">02. <span>Work Experience</span></div>
+        <div class="overlayMenuItem" (click)="scrollToElement(Education)">03. <span>Education & Awards</span></div>
+    </div>
+</div>

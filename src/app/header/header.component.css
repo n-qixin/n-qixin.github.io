@@ -4,9 +4,9 @@ header {
     border-bottom: 2px groove lightgray;
     padding: 0 20px;
     display: block;
+    width: 100%;
     position: sticky;
     top: 0;
-    transition: top 1s;
     z-index: 99;
 }
 
@@ -19,13 +19,7 @@ header {
     font-family: Audiowide, monospace;
     font-size: 2em;
     margin: 0.5em;
-}
-
-.name {
-    font-family: Vollkorn, serif;
-    font-size: 2.5em;
-    color: white;
-    padding: 10px;
+    color: gainsboro;
 }
 
 .logo {
@@ -56,22 +50,20 @@ nav ul {
     display: inline-flex;
     margin: auto 0;
     height: 100%;
-}
-
-nav ul li {
     list-style: none;
 }
 
 nav ul li a {
     border-radius: 10px;
     font-size: 1em;
-    padding: 10px 20px;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
     vertical-align: bottom;
+    color: gainsboro;
 }
 
 nav ul li a:hover,
 .selected:hover {
-    background-color: rgba(120, 120, 120, 0.5);
     color: #77A7FF;
     transition: 0.45s;
 }
@@ -83,4 +75,15 @@ nav ul li a:active {
 
 .selected {
     color: #F38E7B;
+}
+
+#downloadCV{
+    border: 2px solid gray;
+    background-color: rgba(120, 120, 120, 0.2);
+}
+
+#downloadCV:hover{
+    background-color: rgba(120, 120, 120, 0.5);
+    border: 2px solid #77A7FF;
+    transition: 1s;
 }

@@ -1,0 +1,115 @@
+#aboutDiv {
+    display: flex;
+    justify-content: space-around;
+    animation: fadeIn 2s ease-out;
+    font-family: Calibri, sans-serif;
+    font-size: 1.2rem;
+}
+
+#aboutMeTitle {
+    position: relative;
+    animation: fadeIn 2s ease-out;
+}
+
+#aboutSect {
+    width: 50%;
+}
+
+#photoSect {
+    height: 100%;
+    border: 0.2rem solid rgb(160, 160, 160);
+    border-radius: 1rem;
+    position: relative;
+    animation: fadeInFromBottomRight 5s ease-out;
+}
+
+#photoFrame {
+    height: 100%;
+    padding: 3rem;
+    border: 0.2rem solid black;
+    transform: translate(-1.2rem, -1.2rem);
+    border-radius: 1rem;
+}
+
+.listTitle {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+
+#listSect {
+    display: flex;
+    justify-content: space-around;
+}
+
+#skillsList {
+    columns: 2;
+    column-gap: 2.5rem;
+}
+
+.skillsIcon {
+    height: 2.5rem;
+    width: auto;
+}
+
+.overlayMenu {
+    height: 100%;
+    width: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 10rem;
+    z-index: 999;
+}
+
+.overlayMenuItem {
+    padding: 1rem 0 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #919191;
+    display: block;
+    cursor: pointer;
+}
+
+.overlayMenuItem span{
+    display: block;
+}
+
+.overlayMenuItem:hover{
+    color: #77A7FF;
+}
+
+@keyframes fadeInFromBottomRight {
+    from {
+        opacity: 0;
+        bottom: -100rem;
+        right: -100rem;
+        display: none;
+    }
+
+    to {
+        opacity: 1;
+        bottom: 0;
+        right: 0;
+        display: block;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes dropFromTop {
+    from {
+        top: -50rem;
+    }
+
+    to {
+        top: 0;
+    }
+}
