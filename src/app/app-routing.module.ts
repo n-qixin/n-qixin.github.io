@@ -12,9 +12,9 @@ import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
   { path: "", component: IntroComponent, data: {animation: 'HomePage'} },
-  { path: "AboutMe", component: AboutMeComponent, data: {animation: 'AboutPage'} },
-  { path: "Projects", component: ProjectsComponent, data: {animation: 'openClosePage'} },
-  { path: "ContactMe", component: ContactComponent, data: {animation: 'openClosePage'} },
+  // { path: "AboutMe", component: AboutMeComponent, data: {animation: 'AboutPage'} },
+  // { path: "Projects", component: ProjectsComponent, data: {animation: 'openClosePage'} },
+  // { path: "ContactMe", component: ContactComponent, data: {animation: 'openClosePage'} },
   { path: "**", component: PageNotFoundComponent, data: {animation: 'openClosePage'} }
 ];
 
