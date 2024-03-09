@@ -6,7 +6,7 @@ footer {
     text-align: center;
     padding: 10px;
     color: gainsboro;
-    background-color: #627AA6;
+    background-color: rgba(50, 50, 50, 1);
     border-top: 2px groove lightgray;
     border-bottom: 2px groove lightgray;
     width: 100%;
