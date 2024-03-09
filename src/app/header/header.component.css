@@ -1,6 +1,5 @@
-
 header {
-    background-color: #627AA6;
+    background-color: rgba(50, 50, 50, 1);
     border-bottom: 2px groove lightgray;
     padding: 0 20px;
     display: block;
@@ -27,9 +26,9 @@ header {
 .logo {
     background: url(../../assets/img/logo.png) no-repeat;
     background-size: contain;
-    height: 60px;
-    width: 60px;
-    margin: auto 0;
+    height: 4rem;
+    width: 4rem;
+    margin: auto 0.2rem;
 }
 
 
@@ -69,11 +68,17 @@ nav ul li a:active {
     color: #2374E1;
 }
 
+.selected {
+    color: #F38E7B;
+}
+
 #downloadCV{
-    border: 2px solid #D3E1FE;
+    border: 2px solid gray;
+    background-color: rgba(120, 120, 120, 0.2);
 }
 
 #downloadCV:hover{
+    background-color: rgba(120, 120, 120, 0.5);
     border: 2px solid #77A7FF;
     transition: 1s;
 }
