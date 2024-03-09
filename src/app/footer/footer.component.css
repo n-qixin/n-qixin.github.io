@@ -5,7 +5,8 @@
 footer{
     text-align: center;
     padding: 10px;
-    background-color: rgba(50, 50, 50, 1);
+    color: gainsboro;
+    background-color: #627AA6;
     border-top: 2px groove lightgray;
     border-bottom: 2px groove lightgray;
     width: 100%;
@@ -13,10 +14,4 @@ footer{
     bottom: 0;
     left: 0;
     display: block;
-}
-
-#angularLink{
-    text-decoration: underline;
-    font-style: italic;
-    font-weight: bold;
 }

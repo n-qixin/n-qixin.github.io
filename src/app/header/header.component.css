@@ -1,6 +1,6 @@
 
 header {
-    background-color: rgba(50, 50, 50, 1);
+    background-color: #627AA6;
     border-bottom: 2px groove lightgray;
     padding: 0 20px;
     display: block;
@@ -16,10 +16,12 @@ header {
 }
 
 #headerText {
-    font-family: Audiowide, monospace;
+    font-family: "Audiowide", monospace;
     font-size: 2em;
     margin: 0.5em;
     color: gainsboro;
+    font-style: normal;
+    text-decoration: none;
 }
 
 .logo {
@@ -30,17 +32,10 @@ header {
     margin: auto 0;
 }
 
-#headerHR {
-    border: 1px inset lightgray;
-    margin: 0;
-}
-
 
 /********** Nav **********/
 
 nav {
-    font-family: Vollkorn Semibold, serif;
-    background-color: rgba(50, 50, 50, 1);
     display: flex;
     justify-content: space-between;
     font-size: 1.1em;
@@ -55,35 +50,30 @@ nav ul {
 
 nav ul li a {
     border-radius: 10px;
-    font-size: 1em;
+    font-size: 1.1em;
     padding: 0.5rem 1rem;
     margin-right: 1rem;
     vertical-align: bottom;
     color: gainsboro;
+    font-style: normal;
+    text-decoration: none;
 }
 
 nav ul li a:hover,
 .selected:hover {
     color: #77A7FF;
-    transition: 0.45s;
+    transition: 0.5s;
 }
 
 nav ul li a:active {
-    background-color: rgba(120, 120, 120, 0.5);
     color: #2374E1;
 }
 
-.selected {
-    color: #F38E7B;
-}
-
 #downloadCV{
-    border: 2px solid gray;
-    background-color: rgba(120, 120, 120, 0.2);
+    border: 2px solid #D3E1FE;
 }
 
 #downloadCV:hover{
-    background-color: rgba(120, 120, 120, 0.5);
     border: 2px solid #77A7FF;
     transition: 1s;
 }

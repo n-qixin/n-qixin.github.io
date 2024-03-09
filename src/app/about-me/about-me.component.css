@@ -1,18 +1,14 @@
-#aboutDiv {
-    display: flex;
+.aboutSect {
+    /* display: flex; */
     justify-content: space-around;
     animation: fadeIn 2s ease-out;
-    font-family: Calibri, sans-serif;
     font-size: 1.2rem;
+    width: 80%;
 }
 
-#aboutMeTitle {
+.aboutTitle {
     position: relative;
     animation: fadeIn 2s ease-out;
-}
-
-#aboutSect {
-    width: 50%;
 }
 
 #photoSect {
@@ -70,11 +66,11 @@
     cursor: pointer;
 }
 
-.overlayMenuItem span{
+.overlayMenuItem span {
     display: block;
 }
 
-.overlayMenuItem:hover{
+.overlayMenuItem:hover {
     color: #77A7FF;
 }
 

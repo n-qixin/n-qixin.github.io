@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -6,7 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  @Input() public title:string="";
+  @Input() public title: string = "";
+  downloadIcon = faFileDownload;
 
   constructor() { }
 

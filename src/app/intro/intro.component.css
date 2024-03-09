@@ -4,7 +4,7 @@
 
 
 #bannerImg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.3)), url("../../assets/img/background-banner.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.55), rgba(50, 50, 50, 0.3)), url("../../assets/img/background-banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
